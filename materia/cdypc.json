@@ -1,0 +1,114 @@
+{
+    "titulo":"Creación Digital y Pensamiento Computacional",
+    "bloques":[{
+    "numero_bloque": 1,
+    "titulo_bloque": "Programación Gráfica Multimedia",
+    "competencia_especifica": "Desarrollar el pensamiento computacional y cultivar la creatividad algorítmica y la interdisciplinariedad, así como desarrollar proyectos de construcción de software que cubran el ciclo de vida de desarrollo, integrándose en un equipo de trabajo fomentando habilidades como la capacidad de resolución de conflictos y de llegar a acuerdos.",
+    "criterios_evaluacion": [
+      {
+        "numero_criterio": "1.1",
+        "descripcion_criterio": "Conocer las estructuras básicas empleadas en la creación de programas informáticos",
+        "contenido_minimo_relacionado": [
+          "CDPC.1.A.1. Fundamentos de programación",
+          "CDPC.1.A.2. Conceptos de instrucción y secuenciación, algoritmo vs código.",
+          "CDPC.1.A.3. Estructuras de control selectivas e iterativas, finitas e infinitas"
+        ]
+      },
+      {
+        "numero_criterio": "1.2",
+        "descripcion_criterio": "Construir programas informáticos aplicados al procesamiento de datos multimedia",
+        "contenido_minimo_relacionado": [
+          "CDPC.1.A.4. Funciones. Introducción al uso de funciones gráficas: punto, línea, triángulo, cuadrado, rectángulo, circulo, elipse, sectores y arcos.",
+          "CDPC.1.A.5. Procesamiento de imágenes. Gráficos vectoriales. Diseño digital generativo basado en algoritmos. Eventos: ratón y teclado, uso de la línea y el punto para dibujar líneas a mano alzada. Operaciones en el espacio: traslaciones, escalados, rotaciones, etc. Diseño de patrones."
+        ]
+      },
+      {
+        "numero_criterio": "1.3",
+        "descripcion_criterio": "Desarrollar la creatividad computacional mediante el espíritu emprendedor",
+        "contenido_minimo_relacionado": [
+          "CDPC.1.A.5. Procesamiento de imágenes. Gráficos vectoriales. Diseño digital generativo basado en algoritmos. Eventos: ratón y teclado. Uso de la línea y el punto para dibujar líneas a mano alzada. Operaciones en el espacio: traslaciones, escalados, rotaciones, etc. Diseño de patrones.",
+          "CDPC.1.A.6. Arte generativo en la naturaleza: Fibonacci y fractales. Imagen de mapa de bit. Aplicación de filtros. Procesamiento de imágenes pixel a pixel."
+        ]
+      },
+      {
+        "numero_criterio": "1.4",
+"descripcion_criterio": "Ser capaz de trabajar en equipo en las diferentes fases del proyecto de construcción de una aplicación multimedia sencilla, colaborando y comunicándose de forma adecuada.",
+"contenido_minimo_relacionado": [
+"CDPC.1.A.7. Modelado 3D. Herramientas.",
+"CDPC.1.A.8.. Procesamiento de video, audio y animaciones. Tratamiento de video como vector de fotogramas.",
+"CDPC.1.A.9. Tratamiento del sonido. Diseño de mini-juegos e instalaciones artísticas generativas e interactivas.",
+"CDPC.1.A.10. Habilidades y herramientas para el trabajo colaborativo."
+]
+}
+]
+}, 
+    {
+        "numero_bloque": 2,
+        "titulo_bloque": "Ciencia de datos, Simulación e Inteligencia Artificial",
+        "competencia_especifica": "Comprender el impacto de las ciencias de la computación en nuestra sociedad y convertirse en ciudadanos con un alto nivel de alfabetización digital, que sepan emplear software específico para simulación de procesos y aplicar los principios de la Inteligencia Artificial en la creación de un agente inteligente siendo conscientes y críticos con las implicaciones en la cesión del uso de los datos, la opacidad y el sesgo inherentes a aplicaciones basadas en las Ciencias de datos, la Simulación y la Inteligencia Artificial",
+        "criterios_evaluacion": [
+        {
+        "numero_criterio": "2.1",
+        "descripcion_criterio": "Conocer los aspectos fundamentales de la Ciencia de datos",
+        "contenido_minimo_relacionado": [
+        "CDPC.1.B.1. Big data. Características. Volumen de datos. Visualización, transporte y almacenaje de los datos. Recogida, análisis y generación de datos.",
+        "CDPC.1.B.3. Inteligencia Artificial. Definición. Historia. El test de Turing. Aplicaciones. Impacto. Ética y responsabilidad social: transparencia y discriminación algorítmica. Beneficios y posibles riesgos."
+        ]
+        },
+        {
+        "numero_criterio": "2.2",
+        "descripcion_criterio": "Utilizar una variedad de datos para simular fenómenos naturales y sociales",
+        "contenido_minimo_relacionado": [
+        "CDPC.1.B.2. Simulación de fenómenos naturales y sociales. Descripción del modelo. Identificación de agentes. Implementación del modelo mediante un software específico, o mediante programación. Técnicas de predicción de datos como sistemas de apoyo a la decisión."
+        ]
+        },
+        {
+        "numero_criterio": "2.3",
+        "descripcion_criterio": "Comprender los principios básicos de funcionamiento de la Inteligencia Artificial y su impacto en nuestra sociedad",
+        "contenido_minimo_relacionado": [
+        "CDPC.1.B.3. Inteligencia Artificial. Definición. Historia. El test de Turing. Aplicaciones. Impacto. Ética y responsabilidad social: transparencia y discriminación algorítmica. Beneficios y posibles riesgos.",
+        "CDPC.1.B.4. Agentes inteligentes simples. Análisis y clasificación supervisada basada en técnicas de aprendizaje automático: reconocimiento de habla; reconocimiento de imágenes; y reconocimiento de texto"
+        ]
+        },
+        {
+        "numero_criterio": "2.4",
+        "descripcion_criterio": "Ser capaz de construir un agente inteligente que emplee técnicas de aprendizaje automático",
+        "contenido_minimo_relacionado": [
+        "CDPC.1.B.4. Agentes inteligentes simples. Análisis y clasificación supervisada basada en técnicas de aprendizaje automático: reconocimiento de habla; reconocimiento de imágenes; y reconocimiento de texto.",
+        "CDPC.1.B.5. Generación de imágenes y/o música basado en técnicas de aprendizaje automático: mezcla inteligente de dos imágenes; generación de música; traducción y realidad aumentada."
+    ]
+    }
+    ]}
+    ,{
+    "numero_bloque": 3,
+    "titulo_bloque": "Ciberseguridad",
+    "competencia_especifica": "Entender el hacking ético como un conjunto de técnicas encaminadas a mejorar la seguridad de los sistemas informáticos y aplicarlas según sus fundamentos en base a las buenas prácticas establecidas.",
+    "criterios_evaluacion": [
+    {
+    "numero_criterio": "3.1",
+    "descripcion_criterio": "Conocer los fundamentos de seguridad de los sistemas informáticos",
+    "contenido_minimo_relacionado": [
+    "CDPC.1.C.1. Fundamentos de Ciberseguridad.",
+    "CDPC.1.C.2. Introducción a la criptografía. Concepto de criptografía, criptología, criptoanálisis y criptosistema.Elementos de un criptosistema. Cifrado CÉSAR. Cifrado físico. Criptografía avanzada. Esteganografía Estegoanálisis. Cifrado de clave simétrica y asimétrica.",
+    "CDPC.1.C.3. Diferencia entre hacking y hacking ético. Fases. Tipos de hackers."
+    ]
+    },
+    {
+    "numero_criterio": "3.2",
+    "descripcion_criterio": "Aplicar distintas técnicas para analizar sistemas",
+    "contenido_minimo_relacionado": [
+    "CDPC.1.C.2. Introducción a la criptografía. Concepto de criptografía, criptología, criptoanálisis y criptosistema.Elementos de un criptosistema. Cifrado CÉSAR. Cifrado físico. Criptografía avanzada. Esteganografía Estegoanálisis. Cifrado de clave simétrica y asimétrica",
+    "CDPC.1.C.4. Técnicas de búsqueda de información: Information gathering. Escaneo: pruebas de PenTesting."
+    ]
+    },
+    {
+    "numero_criterio": "3.3",
+    "descripcion_criterio": "Documentar los resultados de los análisis",
+    "contenido_minimo_relacionado": [
+    "CDPC.1.C.4. Técnicas de búsqueda de información: Information gathering. Escaneo: pruebas de PenTesting.",
+    "CDPC.1.C.5. Vulnerabilidades en sistemas. Análisis forense. Repercusiones legales. Ciberdelitos."
+    ]
+    }
+    ]
+    }]
+}
