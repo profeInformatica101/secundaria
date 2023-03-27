@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Creación Digital y Pensamiento Computacional</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+      <h1>Creación Digital y Pensamiento Computacional</h1>
+      <div id="bloques"></div>
+    </div>
+    <script>
+        // función para crear el HTML de un bloque
+        function crearBloqueHTML(bloque) {
+          var html = '<div class="card mb-3">';
+          html += '<div class="card-header">' + bloque.titulo_bloque + '</div>';
+          html += '<div class="card-body">';
+          html += '<p class="card-text">' + bloque.competencia_especifica + '</p>';
+          html += '<ul class="list-group list-group-flush">';
+          for (var i = 0; i < bloque.criterios_evaluacion.length; i++) {
+            html += '<li class="list-group-item">';
+            html += '<strong>' + bloque.criterios_evaluacion[i].descripcion_criterio + '</strong><br>';
+            html += '<ul>';
+            for (var j = 0; j < bloque.criterios_evaluacion[i].contenido_minimo_relacionado.length; j++) {
+              html += '<li>' + bloque.criterios_evaluacion[i].contenido_minimo_relacionado[j] + '</li>';
+            }
+            html += '</ul>';
+            html += '</li>';
+          }
+          html += '</ul>';
+          html += '</div>';
+          html += '</div>';
+          return html;
+        }
+      
+        // función para cargar la información del JSON y mostrarla en la página
+        function cargarInformacion() {
+          $.getJSON("https://raw.githubusercontent.com/profeInformatica101/secundaria/main/materia/cdypc.json", function(data) {
+            var html = '';
+            for (var i = 0; i < data.bloques.length; i++) {
+              html += crearBloqueHTML(data.bloques[i]);
+            }
+            $('#bloques').html(html);
+          });
+        }
+      
+        // cargar la información al cargar la página
+        $(document).ready(function() {
+          cargarInformacion();
+        });
+      </script>
+  </body>
+  
+</html>
