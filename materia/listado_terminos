@@ -1,0 +1,42 @@
+BLOQUE 1:
+Fundamentos de programación: Conjunto de conceptos y técnicas básicas para el diseño y desarrollo de programas informáticos.
+Algoritmo: Conjunto de instrucciones ordenadas y finitas que resuelven un problema o realizan una tarea determinada.
+Estructuras de control: Instrucciones que permiten controlar el flujo de ejecución de un programa.
+Estructuras de control selectivas: Instrucciones que permiten tomar decisiones en función de ciertas condiciones.
+Estructuras de control iterativas: Instrucciones que permiten repetir una tarea de manera cíclica mientras se cumple una condición.
+Funciones gráficas: Funciones que generan elementos gráficos, como puntos, líneas, círculos, rectángulos, entre otros.
+Gráficos vectoriales: Imágenes generadas a partir de fórmulas matemáticas que permiten representar figuras geométricas de manera precisa y escalable.
+Diseño digital generativo basado en algoritmos: Técnica de diseño que utiliza algoritmos para generar automáticamente diseños gráficos, patrones y formas.
+Traslaciones, escalados, rotaciones: Transformaciones geométricas que permiten modificar la posición, tamaño y orientación de elementos gráficos.
+Patrones: Diseños que se repiten de manera regular y que pueden ser generados mediante algoritmos o a partir de elementos gráficos previamente diseñados.
+Modelado 3D: Proceso de creación de objetos tridimensionales mediante software especializado.
+Procesamiento de video, audio y animaciones: Técnicas para la edición y manipulación de archivos de video, audio y animaciones.
+Tratamiento del sonido: Técnicas para la edición y manipulación de archivos de audio.
+Mini-juegos e instalaciones artísticas generativas e interactivas: Creaciones interactivas que utilizan elementos gráficos, de sonido y programación para crear experiencias multimedia para el usuario.
+Habilidades y herramientas para el trabajo colaborativo: Conjunto de habilidades y herramientas necesarias para colaborar efectivamente en un equipo de trabajo.
+p5.js: Biblioteca de JavaScript para la creación de gráficos interactivos y animaciones en la web.
+JavaScript: Lenguaje de programación utilizado en la web para crear interactividad y dinamismo en las páginas.
+
+BLOQUE 2:
+
+BLOQUE 3:
+    
+    Ciberseguridad: Protección de sistemas informáticos, redes y datos contra amenazas digitales, como ataques, robos y daños.
+
+    Hacking: Acceso no autorizado a sistemas informáticos, redes o datos, generalmente con fines maliciosos.
+
+    Hacking ético: Práctica de evaluar la seguridad de sistemas informáticos, identificar vulnerabilidades y recomendar soluciones para mejorar la seguridad, con el permiso de los propietarios del sistema.
+
+    Criptografía: Ciencia de proteger la información mediante la codificación de mensajes para que solo las partes autorizadas puedan leerlos.
+
+    Criptología: Estudio de la criptografía y el criptoanálisis.
+
+    Criptoanálisis: Proceso de descifrar mensajes codificados sin conocer la clave secreta utilizada para cifrarlos.
+
+    Criptosistema: Sistema utilizado para cifrar y descifrar mensajes con el objetivo de proteger la información.
+
+    Cifrado César: Técnica de cifrado por sustitución en la que cada letra del texto original se reemplaza por otra letra a una distancia fija en el alfabeto.
+
+    Esteganografía: Arte de ocultar información dentro de otros medios, como imágenes o archivos de audio, de manera
+    
+    
